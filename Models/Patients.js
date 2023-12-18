@@ -31,7 +31,7 @@ const patientSchema = mongoose.Schema(
         },
         Contact:{
             type: Number,
-            required: true
+            required: false
         },
         Emergency_Name:{
             type: String,
